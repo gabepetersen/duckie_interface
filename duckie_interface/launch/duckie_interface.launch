@@ -1,3 +1,0 @@
-<launch>
-	<node name="duckie_interface" pkg="duckie_interface" type="duckie_interface.py" output="screen"/>
-</launch>
