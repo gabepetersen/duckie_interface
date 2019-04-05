@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<include file="$(find vicon_track_multiple)/launch/vicon_track.launch"/>
+	
+	<node name="duckie_interface" pkg="duckie_interface" type="duckie_interface.py" output="screen"/>
+</launch>
